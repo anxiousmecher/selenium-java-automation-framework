@@ -2,6 +2,8 @@ package Base;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -15,6 +17,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 public class base {
+    protected Logger logger= LogManager.getLogger(this.getClass());
     protected WebDriver driver;
     protected PDFReportGenerator pdfReportGenerator;
     protected ExtentReports extent_report;
@@ -23,6 +26,7 @@ public class base {
     @BeforeMethod
     public void setup(Method method)
     {
+        logger.info("----------------------------Started test "+method.getName()+"-----------------------");
         extent_report=ExtentManager.getInstance();
         extent_test=extent_report.createTest(method.getName());
         System.setProperty("webdriver.chrome.driver","driver/chromedriver.exe");
@@ -50,6 +54,7 @@ public class base {
         {
             driver.quit();
         }
+        logger.info("----------------------------Ended[ test "+method.getName()+"-----------------------");
     }
     @AfterSuite
     public void extentflush()

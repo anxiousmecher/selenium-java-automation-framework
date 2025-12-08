@@ -1,0 +1,70 @@
+15:45:44 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:45:45 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:45:46 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:45:46 INFO  TC01_Verifylogin:40 - User is logged in
+15:45:47 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:45:48 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:45:48 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:45:48 ERROR TC01_Verifylogin:46 - user is not able to login
+15:45:50 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:45:50 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:45:51 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:45:51 ERROR TC01_Verifylogin:46 - user is not able to login
+15:45:53 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:45:53 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:45:54 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:45:54 INFO  TC01_Verifylogin:40 - User is logged in
+15:45:56 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:45:56 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:46:02 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:46:02 INFO  TC01_Verifylogin:40 - User is logged in
+15:48:17 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:48:18 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:48:18 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:48:18 INFO  TC01_Verifylogin:40 - User is logged in
+15:48:20 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:48:20 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:48:21 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:48:21 ERROR TC01_Verifylogin:46 - user is not able to login
+15:48:23 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:48:23 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:48:23 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:48:23 ERROR TC01_Verifylogin:46 - user is not able to login
+15:48:25 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:48:25 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:48:26 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:48:26 INFO  TC01_Verifylogin:40 - User is logged in
+15:48:28 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:48:28 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:48:34 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:48:34 INFO  TC01_Verifylogin:40 - User is logged in
+15:52:00 INFO  TC01_Verifylogin:29 - ----------------------------Started test TC01_Verifylogin-----------------------
+15:52:03 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:52:04 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:52:04 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:52:04 INFO  TC01_Verifylogin:40 - User is logged in
+15:52:05 INFO  TC01_Verifylogin:57 - ----------------------------Ended test TC01_Verifylogin-----------------------
+15:52:05 INFO  TC01_Verifylogin:29 - ----------------------------Started test TC01_Verifylogin-----------------------
+15:52:06 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:52:07 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:52:07 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:52:07 ERROR TC01_Verifylogin:46 - user is not able to login
+15:52:08 INFO  TC01_Verifylogin:57 - ----------------------------Ended test TC01_Verifylogin-----------------------
+15:52:08 INFO  TC01_Verifylogin:29 - ----------------------------Started test TC01_Verifylogin-----------------------
+15:52:10 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:52:10 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:52:11 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:52:11 ERROR TC01_Verifylogin:46 - user is not able to login
+15:52:11 INFO  TC01_Verifylogin:57 - ----------------------------Ended test TC01_Verifylogin-----------------------
+15:52:11 INFO  TC01_Verifylogin:29 - ----------------------------Started test TC01_Verifylogin-----------------------
+15:52:13 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:52:13 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:52:14 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:52:14 INFO  TC01_Verifylogin:40 - User is logged in
+15:52:14 INFO  TC01_Verifylogin:57 - ----------------------------Ended test TC01_Verifylogin-----------------------
+15:52:14 INFO  TC01_Verifylogin:29 - ----------------------------Started test TC01_Verifylogin-----------------------
+15:52:16 INFO  TC01_Verifylogin:24 - Verify login page is displayed
+15:52:17 INFO  TC01_Verifylogin:29 - Login page is displayed
+15:52:22 INFO  TC01_Verifylogin:37 - Verify user can Login
+15:52:22 INFO  TC01_Verifylogin:40 - User is logged in
+15:52:23 INFO  TC01_Verifylogin:57 - ----------------------------Ended test TC01_Verifylogin-----------------------
