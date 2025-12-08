@@ -7,10 +7,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,11 +20,15 @@ public class base {
     protected ExtentReports extent_report;
     protected ExtentTest extent_test;
 
+    @BeforeSuite
+            public void createextentreport()
+    {
+        extent_report=ExtentManager.getInstance();
+    }
     @BeforeMethod
     public void setup(Method method)
     {
         logger.info("----------------------------Started test "+method.getName()+"-----------------------");
-        extent_report=ExtentManager.getInstance();
         extent_test=extent_report.createTest(method.getName());
         System.setProperty("webdriver.chrome.driver","driver/chromedriver.exe");
         ChromeOptions options=new ChromeOptions();
@@ -42,12 +43,13 @@ public class base {
         if(pdfReportGenerator!=null)
         {
             String reportpath=new java.text.SimpleDateFormat("ddMMyyyy_HHmmss").format(new java.util.Date());
-            File directory=new File("reports/"+reportpath);
+           String reportfolder="reports/"+method.getName();
+            File directory=new File("reports/"+reportfolder);
             if(!directory.exists())
             {
                 directory.mkdirs();
             }
-            String reportspathfile="reports/"+reportpath+"/"+reportpath+".pdf";
+            String reportspathfile="reports/"+reportfolder+"/"+reportpath+".pdf";
             pdfReportGenerator.save(reportspathfile);
         }
         if(driver!=null)
