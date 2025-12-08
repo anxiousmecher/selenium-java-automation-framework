@@ -5,7 +5,7 @@ import Base.SheetName;
 import Base.UserType;
 import Base.base;
 import Utility.commonsteps;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
